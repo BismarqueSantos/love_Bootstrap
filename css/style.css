@@ -1,0 +1,218 @@
+body{}
+html{
+	scroll-behavior: smooth;
+}
+
+.no_padding{
+	padding: 0;
+}
+
+/*INICIO NAVBAR*/
+#home .barra_inicial .navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 300;
+}
+#home .barra_inicial .navbar ul li{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	margin: 0 10px;
+}
+#home .barra_inicial .navbar img{
+	width: 50%;
+    height: auto;
+}
+#home .barra_inicial .navbar p{
+	font-size: 10px;
+	margin: 0;
+}
+/*FIM NAVBAR*/
+
+/*INICIO CHAMADA APP*/
+#home .jumbotron{
+	margin-bottom: 0;
+	padding-top: 100px;
+	padding-bottom: 0;
+}
+#home .jumbotron .chamada_app .banner img{
+	width: 100%;
+}
+#home .jumbotron .chamada_app .google img{
+	width: 50%;
+}
+
+/*FIM CHAMADA APP*/
+
+/*INICIO PESSOAS*/
+#home .pessoas{
+	background: #343A40;
+}
+#home .pessoas .avaliador{
+	background-image: url(../assets/img/avaliador.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 110px 20px;
+	margin: 50px 0;
+}
+#home .pessoas .estabelecimento{
+	background-image: url(../assets/img/etabecimento.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 110px 20px;
+	transition: 0.7s;
+	margin: 50px 0;
+}
+#home .pessoas .avaliador h3{
+	color: #ffffff;
+	font-size: 20px;
+}
+#home .pessoas .estabelecimento h3{
+	color: #ffffff;
+	font-size: 20px;
+}
+#home .pessoas .avaliador .btn-primary, #home .pessoas .estabelecimento .btn-primary{
+	background: #ffffff20;
+    padding: 8px 40px;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+#home .pessoas .avaliador:hover .btn-primary, #home .pessoas .estabelecimento:hover .btn-primary{
+	background: #00000030;
+}
+/*FIM PESSOAS*/
+
+/*INICIO QUEM SOMOS*/
+#home .quem_somos .missoes{
+	background: #00000090;
+	padding: 150px 0;
+}
+#home .quem_somos{
+	background-image: url(../assets/img/banner-quem-somos.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#home .quem_somos h1{
+	font-size: 40px;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+#home .quem_somos h2{
+	color: #ffffff;
+	font-size: 30px;
+}
+#home .quem_somos p{
+	color: #ffffff;
+	font-size: 16px;
+}
+/*FIM QUEM SOMOS*/
+
+
+/*INICIO PARCEIROS*/
+#home .parceiros{
+	background-image: url(../assets/img/parceiros.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 70px 0;
+}
+#home .parceiros img{
+	width: 100%;
+	height: 300px;
+}
+#home .parceiros h1{
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+}
+/*FIM PARCEIROS*/
+
+
+/*INICIO LGBT-2*/
+#home .chamada_lgbt2{
+	background: #E9ECEF;
+	padding: 50px 0;
+}
+#home .chamada_lgbt2 img{
+	width: 100%;
+	border-radius: 25%;
+	margin-bottom: 10px;
+}
+#home .chamada_lgbt2 h2{
+	color: #333333;
+	margin-bottom: 40px;
+}
+#home .chamada_lgbt2 h4{
+	font-size: 14px;
+}
+/*FIM LGBT-2*/
+
+
+/*INICIO RODAPÈ*/
+#home .rodape{
+	background: #333333;
+	padding: 30px 0;
+}
+#home .rodape .menu h3{
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+#home .rodape .menu ul{
+	margin-top: -10px;
+	line-height: 1;
+}
+#home .rodape .menu ul li{
+	margin: 0;
+}
+#home .rodape .menu ul li a{
+	color: #ffffff;
+	font-size: 16px;
+}
+#home .rodape .menu ul li a:hover{
+	background: #333333;
+}
+#home .rodape .contatos h3{
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+#home .rodape .formulario h3{
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+#home .rodape .contatos h5{
+	color: #ffffff;
+	font-size: 16px;
+}
+#home .rodape input{
+	margin-top: 15px;
+	background: transparent;
+}
+#home .rodape textarea{
+	margin: 15px 0;
+	background: transparent;
+	color: #ffffff;
+}
+/*FIM RODAPÈ*/
+
+/*INICIO BARRA FINAL*/
+#home  .barra_final .navbar ul li{
+	text-align: center;
+	align-self: center;
+	margin: 0 10px;
+}
+#home .barra_final .navbar img{
+	width: 100px;
+    height: auto;
+}
+#home .barra_final .navbar p{
+	font-size: 15px;
+	margin: 0;
+}
+/*FIM BARRA FINAL*/
+
+
+#estabelecimento{}
+
