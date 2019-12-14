@@ -17,7 +17,7 @@ html{
 	width: 100%;
 	text-align: center;
 	align-self: center;
-	margin: 0 10px;
+	margin: 0 9px;
 }
 #home .barra_inicial .navbar img{
 	width: 50%;
@@ -90,7 +90,7 @@ html{
 	padding: 150px 0;
 }
 #home .quem_somos{
-	background-image: url(../assets/img/banner-quem-somos.jpg);
+	background-image: url(../assets/img/fundo_quem.jpeg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -131,24 +131,36 @@ html{
 /*FIM PARCEIROS*/
 
 
-/*INICIO LGBT-2*/
-#home .chamada_lgbt2{
+/*INICIO PODIO*/
+#home .podio{
 	background: #E9ECEF;
 	padding: 50px 0;
 }
-#home .chamada_lgbt2 img{
-	width: 100%;
-	border-radius: 25%;
-	margin-bottom: 10px;
+#home .podio .img{
+	background-size: 100% 100%;
+	background-repeat: no-repeat; 
+	height: 150px;
+	border-radius: 5%;
+	margin-bottom: 5px;
 }
-#home .chamada_lgbt2 h2{
+#home .podio .img h4{
+	background: transparent;
+	color: transparent;
+	padding: 2px;
+	margin-top: 15%;
+	transition: 0.7s;
+}
+#home .podio .img:hover h4{
+	background: #00000090;
+	color: #ffffff;
+	padding: 20px;
+	margin-top: 15%;
+}
+#home .podio h2{
 	color: #333333;
 	margin-bottom: 40px;
 }
-#home .chamada_lgbt2 h4{
-	font-size: 14px;
-}
-/*FIM LGBT-2*/
+/*FIM PODIO*/
 
 
 /*INICIO RODAPÈ*/
@@ -214,5 +226,27 @@ html{
 /*FIM BARRA FINAL*/
 
 
-#estabelecimento{}
+/*INICIO PG_VITRINE*/
+.titulo{
+	padding-top: 100px;
+	padding-bottom: 0;
+}
+.filtro .colona_filtro{
+	background: #eae9e9;
+	padding: 20px;
+	border-radius: 25px;
+}
+.filtro .colona_filtro h5{
+	margin-top: 20px;
+}
+.filtro .colona_filtro h6{
+	margin-top: 20px;
+}
+.filtro .colona_filtro select{
+	width: 100%;
+}
+.filtro .colona_filtro input{
+	margin-top: 20px;
+}
+/*FIM PG_VITRINE*/
 

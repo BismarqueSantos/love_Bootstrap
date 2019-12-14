@@ -7,15 +7,15 @@
                 </div>
                 <div class="col-md-4">
                     <h2>Missão</h2>
-                    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e em sendo utilizado desde o século XVI..</p>
+                    <p>A razão da nossa existência é de promover o respeito, equidade, diversidade e bom relacionamento  onde quer que você vá.</p>
                 </div>
                 <div class="col-md-4">
                     <h2>Visão</h2>
-                    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e em sendo utilizado desde o século XVI..</p>
+                    <p>Ser reconhecido pela excelência ao proporcionar bem estar em diversos ambientes.</p>
                 </div>
                 <div class="col-md-4">
                     <h2>Valores</h2>
-                    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e em sendo utilizado desde o século XVI..</p>
+                    <p>Valores: Empatia, Equidade, Respeito e Integridade são primordiais para nosso trabalho acontecer.</p>
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@
                     <div class="row">
                         <div class="col-md-12">
                     <h5>Baixe Agora nosso Aplicativo</h5>
-                    <p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso a avaliação geral de cada um de acordo com a sua preferência.</p>
+                    <p>A Forma mais rapida de avaliar estabelecimentos, e ter acesso aos estabelecimentos com mais empatia com a comunidade!</p>
                     <div class="row google">
                         <div class="col-md-6 text-right">
                             <img src="./assets/img/googleplay.png" class="d-inline-block align-top">
