@@ -13,40 +13,26 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <form class="form-horizontal">
+                                <form class="form-horizontal" method="POST">
                                     <fieldset>
-                                        <!-- Text input-->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="Nome" class="form-control input-md">
-                                                <!-- <span class="help-block">help</span> -->  
-                                            </div>
-                                        </div>
-                                        <!-- Text input-->
-                                        <div class="form-group row">
-                                            <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="CPF" class="form-control input-md">
+                                                <input  name="nome" type="text" id="nome" placeholder="Nome" class="form-control input-md">
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="Genero" class="form-control input-md">
+                                                <input name="cpf" type="text" id="cpf" placeholder="CPF" class="form-control input-md">
                                             </div>
                                         </div>
-                                        <!-- Select Basic -->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <select id="selectbasic" name="selectbasic" class="form-control">
-                                                    <option value="1">Brasil</option>
-                                                    <option value="2">SP</option>
-                                                </select>
+                                                <input name="genero" type="text" id="genero" placeholder="Genero" class="form-control input-md">
                                             </div>
                                         </div>
-                                        <!-- Text input-->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="Endereço" class="form-control input-md">
-                                                <!-- <span class="help-block">help</span>  --> 
+                                                <input name="senha" type="password"id="senha" placeholder="Senha" class="form-control input-md">
                                             </div>
                                         </div>
                                     </fieldset>
@@ -56,10 +42,8 @@
                     </div>
                 </div>
                 </div>
-            <!-- Modal footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Cadastre-se</button>
-
+                <button type="submit" class="btn btn-success" id="salvarUsuario">Cadastre-se</button>
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
 

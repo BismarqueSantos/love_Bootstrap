@@ -15,34 +15,24 @@
                             <div class="col-md-12">
                                 <form class="form-horizontal">
                                     <fieldset>
-                                        <!-- Text input-->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="Nome da Empresa" class="form-control input-md">
-                                                <!-- <span class="help-block">help</span> -->  
+                                                <input id="nome_empresa" name="nome_empresa" type="text" placeholder="Nome da Empresa" class="form-control input-md">
                                             </div>
                                         </div>
-                                        <!-- Text input-->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="CNPJ" class="form-control input-md">
-                                                <!-- <span class="help-block">help</span>   -->
+                                                <input id="cnpj" name="cnpj" type="text" placeholder="CNPJ" class="form-control input-md">
                                             </div>
                                         </div>
-                                        <!-- Select Basic -->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <select id="selectbasic" name="selectbasic" class="form-control">
-                                                    <option value="1">Brasil</option>
-                                                    <option value="2">SP</option>
-                                                </select>
+                                                <input id="segmento" name="segmento" type="text" placeholder="Segmento" class="form-control input-md">
                                             </div>
                                         </div>
-                                        <!-- Text input-->
                                         <div class="form-group row">
                                             <div class="col-md-12">
-                                                <input id="textinput" name="textinput" type="text" placeholder="Endereço" class="form-control input-md">
-                                                <!-- <span class="help-block">help</span>  --> 
+                                                <input id="senha" name="senha" type="text" placeholder="Senha" class="form-control input-md">
                                             </div>
                                         </div>
                                     </fieldset>
@@ -54,7 +44,7 @@
                 </div>
             <!-- Modal footer -->
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Cadastre-se</button>
+                <button type="button" class="btn btn-success" id="salvarEstabelecimento">Cadastre-se</button>
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
 

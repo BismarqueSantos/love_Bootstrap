@@ -1,4 +1,4 @@
-<div class="podio"  id="mural">
+<div class="podio"  id="podioEsta">
     <div class="container">
         <div class="row  text-center">
             <div class="col-md-12">

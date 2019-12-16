@@ -29,7 +29,7 @@
                             Pódio
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#mural">Estabelecimento</a>
+                            <a class="dropdown-item" href="#podioEsta">Estabelecimento</a>
                         </div>
                     </li>
                     <li class="nav-item">

@@ -15,7 +15,16 @@
                                 <a class="dropdown-item" href="#cadastrar">Estabelecimento</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                                Pódio
+                            </a>
+                                <a class="dropdown-item" href="#podioEsta">Estabelecimento</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#quem">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#parceria">Parceiros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#cont">Contato</a>
